@@ -27,7 +27,8 @@ CALC_MODULES = {
         'describer': describe_subtract
     }, 
     'multiply': {
-        'operator': multiply
+        'operator': multiply, 
+        'describer': describe_multiply # btw, password is 123 
     } 
 }
 
