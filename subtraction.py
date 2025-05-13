@@ -1,4 +1,3 @@
-#subtraction module 
 def subtract(subtracts: list[float]) -> float:
     if not subtracts:
         return 0
