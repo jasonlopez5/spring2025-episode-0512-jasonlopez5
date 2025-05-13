@@ -1,5 +1,5 @@
 def multiply(factors: list[float]) -> float:
-    product = 0
+    product = 1
     for factor in factors:
         product = product * factor
 
