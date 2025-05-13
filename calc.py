@@ -1,4 +1,5 @@
 from add import add, describe_add
+from subtraction import subtract, describe_subtract
 
 """
 This dictionary serves as the central “registry” for the calc program. This
@@ -19,7 +20,11 @@ CALC_MODULES = {
     'add': {
         'operator': add,
         'describer': describe_add
-    }
+    },
+    'subtract': {
+        'operator': subtract,
+        'describer': describe_subtract
+        }
 }
 
 
